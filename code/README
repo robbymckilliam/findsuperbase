@@ -6,13 +6,13 @@ A build of this library is contained in the ./lib folder. There are two scripts 
 
 montecarlo.scala
 
-which using the Scala (http://www.scala-lang.org/)  programming language and
+which uses the Scala (http://www.scala-lang.org/)  programming language and
 
 montecarlo.m
 
 which uses Matlab.  
 
-The script runsim.sh will run the simulations using Scala.  You need Scala2.10.x installed (this doesn't as default in Ubuntu/Debian yet.  You need to download it from the website).
+The script runsim.sh will run the simulations using Scala.  You need Scala2.10.x installed (this doesn't come as default in Ubuntu/Debian yet.  You need to download it from the website).
 
 My version of Matlab comes with Java1.6 installed by default, but Java1.7 is required.  To ammend this install a Java1.7 JRE and point Matlab to it using the instructions at 
 
