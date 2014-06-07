@@ -1,0 +1,23 @@
+Code for running the Monte-Carlo simulations is contained inside this folder.  The code make use of the java library at
+
+https://github.com/robbymckilliam/pubsim
+
+A build of this library is contained in the ./lib folder. There are two scripts for running the simulations
+
+montecarlo.scala
+
+which using the Scala (http://www.scala-lang.org/)  programming language and
+
+montecarlo.m
+
+which uses Matlab.  
+
+The script runsim.sh will run the simulations using Scala.  You need Scala2.10.x installed (this doesn't as default in Ubuntu/Debian yet.  You need to download it from the website).
+
+My version of Matlab comes with Java1.6 installed by default, but Java1.7 is required.  To ammend this install a Java1.7 JRE and point Matlab to it using the instructions at 
+
+http://undocumentedmatlab.com/blog/using-java-7-in-matlab-r2013a-and-earlier
+
+For me this just involved defining the enviroment variable
+
+MATLAB_JAVA="/usr/lib/jvm/java-7-openjdk-amd64/jre"
